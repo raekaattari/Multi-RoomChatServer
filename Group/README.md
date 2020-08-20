@@ -1,12 +1,21 @@
-# CSE330
-455207
+# CSE330 - Rapid Prototype Development and Creative Programming
 
-457601
+We created a multi-room chat server using Node.JS and Socket.IO. 
 
-***NOTE: When you clone the module folder, before doing NPM install please cd into the Group folder, which is a folder within the module folder you will clone. Once you have entered the group folder you may do NPM install. 
+This chat service contains a main lobby where users sign on with a nickname and can communicate with each other. Users may also create chat rooms for other to join. The entire app is displayed on a single webpage, listing the room you are in, all available rooms, and the users in the current room. The creator of a private room can kick or ban users from the room.
 
-***NOTE: When things happen such as private message, or kick, or ban - all of these are working properly. However, the person who does the kick/ban/dm is not getting a message that this occured, but for the person who is getting kicked/banned/dm it is fully working. So our functionalities are fully orking its just that the person who does the action isnt being notified they were successful. 
+Requirements
 
+Administration of user created chat rooms
+- Users can create chat rooms with an arbitrary room name
+- Users can join an arbitrary chat room
+- The chat room displays all users currently in the room
+- A private room can be created that is password protected
+- Creators of chat rooms can temporarily kick others out of the room
+- Creators of chat rooms can permanently ban users from joining that particular room
+Messaging:
+- A user's message shows their username and is sent to everyone in the room
+- Users can send private messages to another user in the same room
 
 Creative Portion: 
 1. If *message is typed, then the user is given info on how to send a private message
@@ -15,3 +24,5 @@ Creative Portion:
 4. If *leaveroom is typed, then the user leaves the room they are currently in and gets put back in the lobby on their request. However if they are already in the lobby, it will tell them they are already in the lobby and cannot leave that.  
 5. Users can see the lobby chat before providing a username, however, they cannot send messages. 
 6. The room a user is in is displayed at the top of their page along with their username. 
+
+I worked on this project with samkik579, due to our classroom privacy settings we made individual copies of the repository.
