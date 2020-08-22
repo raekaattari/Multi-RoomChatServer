@@ -23,4 +23,5 @@ Creative Portion:
 - If *leaveroom is typed, then the user leaves the room they are currently in and gets put back in the lobby on their request. However if they are already in the lobby, it will tell them they are already in the lobby and cannot leave that.
 - Users can see the lobby chat before providing a username, however, they cannot send messages.
 - The room a user is in is displayed at the top of their page along with their username.
-- I worked on this project with samkik579, due to our classroom privacy settings we made individual copies of the repository.
+
+I worked on this project with samkik579, due to our classroom privacy settings we made individual copies of the repository.
